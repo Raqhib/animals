@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">My Animals</string>
+
+    <string name="animals_name">Hewan</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">Profile</string>
+    <string name="name">Raqhib Ataillah</string>
+    <string name="email">raqhib.ataillah@gmail.com</string>
+
+    <string-array name="data_name">
+        <item>Burung Maleo</item>
+        <item>Burung Rangkong</item>
+        <item>Babi Rusa</item>
+        <item>Anoa</item>
+        <item>Tarsius</item>
+        <item>Monyet Hitam Sulawesi</item>
+        <item>Kuskus Beruang Sulawesi</item>
+        <item>Monyet Gorontalo</item>
+        <item>Kuskus Kerdil</item>
+        <item>Kupu Kupu Glossogobius matanensis</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Maleo (Macrocephalon maleo) adalah burung endemik Sulawesi yang memiliki ciri khas berupa mahkota atau "helm" pada kepalanya. Ukurannya sedang, dengan panjang sekitar 55 cm. Maleo memiliki bulu berwarna hitam di bagian atas dan putih di bagian bawah, dengan kulit sekitar wajah yang berwarna kuning. Salah satu keunikan burung ini adalah cara mereka bertelur. Maleo mengubur telurnya di pasir atau tanah panas vulkanik untuk dierami secara alami oleh panas bumi.
+            \n\nHabitat: Hutan tropis, area dekat pantai, dan daerah vulkanik di Sulawesi.
+            \n\nAncaman: Ancaman terhadap Maleo termasuk perburuan telur dan kehilangan habitat.</item>
+        <item>Burung Rangkong Sulawesi (Rhabdotorrhinus exarhatus) adalah burung besar dengan paruh panjang dan lengkung yang mencolok, serta memiliki "cask" (struktur keras seperti tanduk) di bagian atas paruhnya. Burung ini dikenal juga sebagai rangkong julang atau rangkong sulawesi, dan merupakan salah satu dari beberapa jenis rangkong yang ditemukan di Indonesia. Burung ini berwarna hitam dengan dada dan leher berwarna putih atau kuning, tergantung jenisnya.
+            \n\nHabitat: Hutan hujan tropis dataran rendah dan perbukitan di Sulawesi.
+            \n\nAncaman: Pembalakan hutan dan perburuan membuat populasi burung rangkong menurun drastis. Paruh mereka yang unik sering diburu untuk perdagangan ilegal.</item>
+        <item>Babirusa (Babyrousa celebensis) adalah hewan yang menyerupai babi, tetapi dengan taring yang sangat mencolok. Pada jantan, taring bagian atas menembus kulit moncongnya dan melengkung ke arah kepala, sedangkan taring bawah tumbuh ke depan. Taring ini sebenarnya adalah gigi taring yang tumbuh berlebihan dan tidak memiliki fungsi jelas. Babirusa memiliki tubuh yang ramping dengan bulu tipis, sering kali berwarna cokelat atau abu-abu.
+            \n\nHabitat: Babirusa hidup di hutan-hutan dan rawa-rawa tropis di Sulawesi serta pulau-pulau kecil di sekitarnya.
+            \n\nAncaman: Mereka terancam oleh perburuan dan degradasi habitat.</item>
+        <item>Anoa adalah kerbau kerdil yang mirip dengan banteng, tetapi jauh lebih kecil.
+            Ada dua spesies yang dikenal, yaitu anoa dataran rendah (Bubalus depressicornis) dan anoa dataran tinggi (Bubalus quarlesi).
+            Anoa memiliki berat sekitar 150–300 kilogram, dengan tinggi sekitar 70–106 cm di bahu.
+            Mereka memiliki bulu coklat gelap hingga hitam dengan tanduk pendek yang runcing. Karena kemiripan fisiknya, anoa sering dijuluki "kerbau mini."
+            \n\nHabitat: Hutan hujan tropis dataran rendah dan pegunungan di Sulawesi.
+            \n\nAncaman: Anoa terancam punah karena perburuan dan hilangnya habitat akibat deforestasi.</item>
+        <item>Tarsius adalah primata kecil yang dikenal karena mata besarnya yang sangat menonjol, proporsional terhadap tubuhnya. Spesies tarsius yang terkenal di Sulawesi termasuk Tarsius spectrum. Panjang tubuh tarsius biasanya sekitar 9–16 cm, dengan ekor yang lebih panjang dari tubuhnya. Mata tarsius sangat besar untuk membantu mereka melihat di malam hari karena mereka adalah hewan nokturnal. Mereka memiliki kaki belakang yang kuat yang memungkinkan mereka melompat dari pohon ke pohon dengan cepat.
+            \n\Habitat: Hutan primer dan sekunder di Sulawesi dan pulau-pulau sekitarnya.
+            \n\nAncaman: Perusakan habitat dan perdagangan satwa liar merupakan ancaman utama bagi keberlangsungan hidup tarsius.</item>
+        <item>Monyet Makaka Nigra (Macaca nigra), atau lebih dikenal sebagai monyet hitam Sulawesi, adalah primata endemik yang terkenal dengan wajah hitamnya dan jambul rambut di atas kepala. Ukuran tubuhnya sekitar 45–60 cm dengan ekor yang sangat pendek. Mereka hidup dalam kelompok sosial besar dan memiliki struktur sosial yang kompleks. Monyet hitam Sulawesi ini juga dikenal karena sering berinteraksi secara sosial dengan sesama, terutama dalam hal merawat bulu.
+            \n\nHabitat: Hutan tropis di bagian utara Sulawesi.
+            \n\nAncaman: Hilangnya habitat akibat deforestasi dan perburuan ilegal untuk konsumsi lokal adalah ancaman bagi spesies ini.</item>
+        <item>Kus-kus beruang (Ailurops ursinus) adalah marsupial yang hanya ditemukan di Sulawesi. Hewan ini memiliki tubuh yang agak kekar, dengan panjang sekitar 60 cm dan berat hingga 7 kg. Namanya berasal dari bentuk tubuhnya yang besar dan bulunya yang lebat, mirip dengan beruang kecil. Kus-kus beruang hidup di atas pohon dan lebih lambat bergerak dibandingkan primata atau marsupial lainnya.
+            \n\nHabitat: Hutan hujan tropis di Sulawesi.
+            \n\nAncaman: Pembalakan hutan dan perburuan untuk dijadikan hewan peliharaan adalah ancaman utama bagi kus-kus beruang.</item>
+        <item>Monyet Gorontalo (Macaca hecki), juga dikenal sebagai Heck’s Macaque, adalah spesies primata endemik yang ditemukan di bagian utara Sulawesi. Hewan ini memiliki ciri khas berupa bulu berwarna coklat gelap hingga kehitaman dengan wajah yang lebih terang. Ukurannya sedang, mirip dengan monyet makaka lainnya, dengan ekor yang relatif panjang. Monyet Gorontalo hidup dalam kelompok sosial besar yang dipimpin oleh jantan dominan, dan mereka dikenal sebagai hewan yang cukup vokal.
+            \n\nHabitat: Hutan hujan tropis dataran rendah dan pegunungan di bagian utara Sulawesi, khususnya di provinsi Gorontalo.
+            \n\nAncaman: Ancaman utama adalah deforestasi dan perburuan ilegal. Monyet ini juga terancam oleh konflik dengan manusia akibat ekspansi lahan pertanian.</item>
+        <item>Kuskus kerdil (Strigocuscus celebensis) adalah salah satu spesies marsupial terkecil di Sulawesi, dengan panjang tubuh sekitar 30 cm. Hewan ini memiliki bulu berwarna coklat keabu-abuan dengan ekor yang bisa memegang (prehensil) untuk membantu mereka memanjat pohon. Hewan ini dikenal karena wajahnya yang bulat dan tubuhnya yang gemuk. Seperti kuskus lainnya, kuskus kerdil adalah hewan arboreal yang lebih banyak menghabiskan waktunya di atas pohon, dan mereka aktif di malam hari.
+            \n\nHabitat: Hutan hujan tropis Sulawesi dan beberapa pulau kecil di sekitarnya.
+            \n\nAncaman: Kehilangan habitat akibat deforestasi dan perburuan merupakan ancaman besar bagi spesies ini.</item>
+        <item>Kupu-kupu Glossogobius matanensis adalah spesies kupu-kupu unik yang ditemukan di wilayah Sulawesi dan sekitarnya. Spesies ini memiliki warna sayap yang sangat indah dan berkilau, biasanya kombinasi warna biru, hijau, dan hitam. Kupu-kupu ini termasuk dalam genus Glossogobius, yang juga mengacu pada spesies-spesies lain di Asia Tenggara. Sayapnya lebar dengan tepi yang agak bergelombang, menjadikannya tampak eksotis di habitat aslinya.
+            \n\nHabitat: Kupu-kupu ini biasanya hidup di hutan-hutan tropis Sulawesi, terutama di daerah dengan kelembaban tinggi dan banyak tumbuhan berbunga.
+            \n\nAncaman: Ancaman utama bagi kupu-kupu ini adalah hilangnya habitat akibat deforestasi dan perubahan iklim yang berdampak pada populasi serangga.</item>
+    </string-array>
+
+    <integer-array name="data_foto">
+        <item>@drawable/burung_maleo</item>
+        <item>@drawable/burung_rangkong</item>
+        <item>@drawable/babiirusa</item>
+        <item>@drawable/anoa_dataran_rendah</item>
+        <item>@drawable/tarsius</item>
+        <item>@drawable/monyet_hitam_sulawesi</item>
+        <item>@drawable/kuskus_beruang_sulawesi</item>
+        <item>@drawable/monyet_gorontalo</item>
+        <item>@drawable/kuskus_kerdil</item>
+        <item>@drawable/kupu_kupu_glossogobius_matanensis</item>
+
+    </integer-array>
+
+
+</resources>

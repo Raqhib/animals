@@ -1,0 +1,10 @@
+<!-- res/drawable/rounded_image.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Border warna -->
+    <stroke android:width="4dp" android:color="#FF5722" />
+
+    <!-- Radius untuk sudut melingkar -->
+    <corners android:radius="16dp" />
+</shape>
