@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#115CA6</color>
+    <color name="colorAccent">#FBC02D</color>
+
+
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="abu">#37474F</color>
+    <color name="dark_abu">#263238</color>
+    <color name="text">#B0BEC5</color>
+    <color name="yellow">#FFCC80</color>
+    <color name="kacau">#A1887F</color>
+
+
 </resources>
