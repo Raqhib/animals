@@ -1,0 +1,5 @@
+id.mondo.myanimals.test.app-androidTest-0 D:\RAQHIB ATAILLAH\BANGKIT\Android\MyAnimals\app\build\generated\res\resValues\androidTest\debug
+id.mondo.myanimals.test.app-mergeDebugAndroidTestResources-1 D:\RAQHIB ATAILLAH\BANGKIT\Android\MyAnimals\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+id.mondo.myanimals.test.app-mergeDebugAndroidTestResources-2 D:\RAQHIB ATAILLAH\BANGKIT\Android\MyAnimals\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+id.mondo.myanimals.test.app-debugAndroidTest-3 D:\RAQHIB ATAILLAH\BANGKIT\Android\MyAnimals\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+id.mondo.myanimals.test.app-core-1.6.1-4 D:\gradle-8.10.1-all\gradle-8.10.1\bin\caches\transforms-4\2068bb8f33fb321f4031f03c8494ac13\transformed\core-1.6.1\res

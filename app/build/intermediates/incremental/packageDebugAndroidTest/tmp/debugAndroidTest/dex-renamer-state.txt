@@ -1,0 +1,10 @@
+#Sat Oct 05 15:47:44 SGT 2024
+base.0=D\:\\RAQHIB ATAILLAH\\BANGKIT\\Android\\MyAnimals\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=D\:\\RAQHIB ATAILLAH\\BANGKIT\\Android\\MyAnimals\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=D\:\\RAQHIB ATAILLAH\\BANGKIT\\Android\\MyAnimals\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\7\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=7/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

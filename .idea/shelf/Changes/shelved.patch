@@ -1,0 +1,250 @@
+Index: app/src/main/java/id/mondo/myanimals/ListAnimalAdapter.kt
+===================================================================
+diff --git a/app/src/main/java/id/mondo/myanimals/ListAnimalAdapter.kt b/app/src/main/java/id/mondo/myanimals/ListAnimalAdapter.kt
+deleted file mode 100644
+--- a/app/src/main/java/id/mondo/myanimals/ListAnimalAdapter.kt	(revision 6e2cc8e526aa1711819699376b7bc7ff8880f75a)
++++ /dev/null	(revision 6e2cc8e526aa1711819699376b7bc7ff8880f75a)
+@@ -1,46 +0,0 @@
+-package id.mondo.myanimals
+-
+-import android.view.LayoutInflater
+-import android.view.View
+-import android.view.ViewGroup
+-import android.widget.ImageView
+-import android.widget.TextView
+-import androidx.recyclerview.widget.RecyclerView
+-
+-class ListAnimalAdapter(private val listAnimals: ArrayList<Animals>) : RecyclerView.Adapter<ListAnimalAdapter.ListViewHolder>() {
+-
+-    class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+-        val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
+-        val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
+-        val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
+-    }
+-
+-    override fun onCreateViewHolder(
+-        parent: ViewGroup,
+-        viewType: Int
+-    ): ListAnimalAdapter.ListViewHolder {
+-        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_animal, parent, false)
+-        return ListViewHolder(view)
+-    }
+-
+-    override fun onBindViewHolder(holder: ListAnimalAdapter.ListViewHolder, position: Int) {
+-        val (name, description, photo) = listAnimals[position]
+-        holder.imgPhoto.setImageResource(photo)
+-        holder.tvName.text = name
+-        holder.tvDescription.text = description
+-
+-//        holder.itemView.setOnClickListener {
+-//            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+-//            intentDetail.putExtra("key_animal", listAnimals[holder.adapterPosition])
+-//            holder.itemView.context.startActivity(intentDetail)
+-//        }
+-
+-
+-
+-    }
+-
+-    override fun getItemCount(): Int = listAnimals.size
+-
+-
+-
+-}
+Index: app/src/main/java/id/mondo/myanimals/RecyclerAdapter.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/id/mondo/myanimals/RecyclerAdapter.kt b/app/src/main/java/id/mondo/myanimals/RecyclerAdapter.kt
+new file mode 100644
+--- /dev/null	(date 1728056334749)
++++ b/app/src/main/java/id/mondo/myanimals/RecyclerAdapter.kt	(date 1728056334749)
+@@ -0,0 +1,40 @@
++package id.mondo.myanimals
++
++import android.view.LayoutInflater
++import android.view.View
++import android.view.ViewGroup
++import android.widget.ImageView
++import android.widget.TextView
++import androidx.recyclerview.widget.RecyclerView
++
++
++class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.MyViewHolder>() {
++
++    internal var animals = arrayListOf<Animals>()
++
++
++    class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
++        private val txtName: TextView = itemView.findViewById(R.id.tv_item_name)
++        private val txtDescription: TextView = itemView.findViewById(R.id.tv_item_description)
++        private val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
++
++        fun bind(animal: Animals) {
++            txtName.text = animal.name
++            txtDescription.text = animal.description
++            imgPhoto.setImageResource(animal.photo)
++        }
++    }
++
++    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerAdapter.MyViewHolder {
++        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_row_animal, parent, false)
++        val viewHolder = MyViewHolder(itemView)
++        return viewHolder
++    }
++
++    override fun onBindViewHolder(holder: RecyclerAdapter.MyViewHolder, position: Int) {
++        holder.bind(animals[position])
++    }
++
++    override fun getItemCount() = animals.size
++
++}
+\ No newline at end of file
+Index: app/src/main/java/id/mondo/myanimals/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package id.mondo.myanimals\r\n\r\nimport android.os.Bundle\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport androidx.recyclerview.widget.LinearLayoutManager\r\nimport androidx.recyclerview.widget.RecyclerView\r\n\r\nclass MainActivity : AppCompatActivity() {\r\n\r\n    private lateinit var rvAnimals: RecyclerView\r\n    private val list = ArrayList<Animals>()\r\n\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        setContentView(R.layout.activity_main)\r\n\r\n        rvAnimals = findViewById(R.id.rv_animals)\r\n        rvAnimals.setHasFixedSize(true)\r\n\r\n\r\n        list.addAll(getListHeroes())\r\n        showRecyclerList()\r\n    }\r\n\r\n    private fun getListHeroes(): ArrayList<Animals>{\r\n        val dataName = resources.getStringArray(R.array.data_name)\r\n        val dataDescription = resources.getStringArray(R.array.data_desc)\r\n        val dataPhoto = resources.obtainTypedArray(R.array.data_foto)\r\n        val listHero = ArrayList<Animals>()\r\n        for (i in dataName.indices){\r\n            val hero = Animals(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))\r\n            listHero.add(hero)\r\n        }\r\n        return listHero\r\n    }\r\n\r\n    private fun showRecyclerList(){\r\n        rvAnimals.layoutManager = LinearLayoutManager(this)\r\n        val listHeroAdapter = ListAnimalAdapter(list)\r\n        rvAnimals.adapter = listHeroAdapter\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/id/mondo/myanimals/MainActivity.kt b/app/src/main/java/id/mondo/myanimals/MainActivity.kt
+--- a/app/src/main/java/id/mondo/myanimals/MainActivity.kt	(revision 6e2cc8e526aa1711819699376b7bc7ff8880f75a)
++++ b/app/src/main/java/id/mondo/myanimals/MainActivity.kt	(date 1728056846182)
+@@ -15,29 +15,27 @@
+         super.onCreate(savedInstanceState)
+         setContentView(R.layout.activity_main)
+ 
+-        rvAnimals = findViewById(R.id.rv_animals)
+-        rvAnimals.setHasFixedSize(true)
+-
++        val recyclerView: RecyclerView = findViewById(R.id.rv_animals)
++        val recyclerAdapter = RecyclerAdapter()
++        recyclerView.adapter = recyclerAdapter
++        recyclerView.layoutManager = LinearLayoutManager(this)
+ 
+-        list.addAll(getListHeroes())
+-        showRecyclerList()
+-    }
+-
+-    private fun getListHeroes(): ArrayList<Animals>{
+         val dataName = resources.getStringArray(R.array.data_name)
+         val dataDescription = resources.getStringArray(R.array.data_desc)
+         val dataPhoto = resources.obtainTypedArray(R.array.data_foto)
+-        val listHero = ArrayList<Animals>()
+-        for (i in dataName.indices){
+-            val hero = Animals(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+-            listHero.add(hero)
++        dataPhoto.recycle()
++
++
++        val animals = arrayListOf<Animals>()
++        for (i in dataName.indices) {
++            val animal = Animals(dataName[i],
++                dataDescription[i],
++                dataPhoto.getResourceId(i, -1)
++            )
++            animals.add(animal)
+         }
+-        return listHero
+-    }
+ 
+-    private fun showRecyclerList(){
+-        rvAnimals.layoutManager = LinearLayoutManager(this)
+-        val listHeroAdapter = ListAnimalAdapter(list)
+-        rvAnimals.adapter = listHeroAdapter
+-    }
++        recyclerAdapter.animals
++
++        }
+ }
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1728049835157)
++++ b/.idea/vcs.xml	(date 1728049835157)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:id=\"@+id/main\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".MainActivity\">\r\n\r\n    <androidx.recyclerview.widget.RecyclerView\r\n        android:id=\"@+id/rv_animals\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"0dp\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\" />\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml
+--- a/app/src/main/res/layout/activity_main.xml	(revision 6e2cc8e526aa1711819699376b7bc7ff8880f75a)
++++ b/app/src/main/res/layout/activity_main.xml	(date 1728055723803)
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/main"
+@@ -9,11 +9,7 @@
+ 
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/rv_animals"
+-        android:layout_width="0dp"
+-        android:layout_height="0dp"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"/>
+ 
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
++</LinearLayout>
+\ No newline at end of file
+Index: .idea/deploymentTargetSelector.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"deploymentTargetSelector\">\r\n    <selectionStates>\r\n      <SelectionState runConfigName=\"app\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n        <DropdownSelection timestamp=\"2024-10-04T06:04:27.739280400Z\">\r\n          <Target type=\"DEFAULT_BOOT\">\r\n            <handle>\r\n              <DeviceId pluginId=\"LocalEmulator\" identifier=\"path=C:\\Users\\Lenovo\\.android\\avd\\Pixel_3_XL_API_28.avd\" />\r\n            </handle>\r\n          </Target>\r\n        </DropdownSelection>\r\n        <DialogSelection />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"MainActivity\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n        <DropdownSelection timestamp=\"2024-10-04T13:31:02.372735500Z\">\r\n          <Target type=\"DEFAULT_BOOT\">\r\n            <handle>\r\n              <DeviceId pluginId=\"LocalEmulator\" identifier=\"path=C:\\Users\\Lenovo\\.android\\avd\\Pixel_3_XL_API_28.avd\" />\r\n            </handle>\r\n          </Target>\r\n        </DropdownSelection>\r\n        <DialogSelection />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"MainActivity (1)\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n      <SelectionState runConfigName=\"MainActivity (2)\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n    </selectionStates>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetSelector.xml b/.idea/deploymentTargetSelector.xml
+--- a/.idea/deploymentTargetSelector.xml	(revision 6e2cc8e526aa1711819699376b7bc7ff8880f75a)
++++ b/.idea/deploymentTargetSelector.xml	(date 1728057338094)
+@@ -15,7 +15,7 @@
+       </SelectionState>
+       <SelectionState runConfigName="MainActivity">
+         <option name="selectionMode" value="DROPDOWN" />
+-        <DropdownSelection timestamp="2024-10-04T13:31:02.372735500Z">
++        <DropdownSelection timestamp="2024-10-04T15:51:41.044404700Z">
+           <Target type="DEFAULT_BOOT">
+             <handle>
+               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Lenovo\.android\avd\Pixel_3_XL_API_28.avd" />
+Index: app/src/main/res/layout/activity_detail.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ScrollView xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\">\r\n\r\n</ScrollView>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_detail.xml b/app/src/main/res/layout/activity_detail.xml
+--- a/app/src/main/res/layout/activity_detail.xml	(revision 6e2cc8e526aa1711819699376b7bc7ff8880f75a)
++++ b/app/src/main/res/layout/activity_detail.xml	(date 1728051129685)
+@@ -3,4 +3,6 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ 
++
++
+ </ScrollView>
+\ No newline at end of file

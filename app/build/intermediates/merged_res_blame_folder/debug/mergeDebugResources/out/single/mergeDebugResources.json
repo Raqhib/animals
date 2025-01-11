@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_kuskus_kerdil.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\kuskus_kerdil.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_tampan.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\tampan.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\layout_activity_about_view.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\layout\\activity_about_view.xml"
+    },
+    {
+        "merged": "id.mondo.myanimals.app-debug-4:/layout_item_row_animal.xml.flat",
+        "source": "id.mondo.myanimals.app-main-6:/layout/item_row_animal.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "id.mondo.myanimals.app-debug-4:/layout_activity_animals_detail.xml.flat",
+        "source": "id.mondo.myanimals.app-main-6:/layout/activity_animals_detail.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_babiirusa.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\babiirusa.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "id.mondo.myanimals.app-debug-4:/layout_activity_splash_screen.xml.flat",
+        "source": "id.mondo.myanimals.app-main-6:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_rounded_image.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\rounded_image.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_anoa_pegunungan.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\anoa_pegunungan.jpg"
+    },
+    {
+        "merged": "id.mondo.myanimals.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "id.mondo.myanimals.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "id.mondo.myanimals.app-debug-4:/layout_activity_about_view.xml.flat",
+        "source": "id.mondo.myanimals.app-main-6:/layout/activity_about_view.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\xml_backup_rules.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\layout_activity_animals_detail.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\layout\\activity_animals_detail.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\menu_profile_menu.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\menu\\profile_menu.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_kuskus_beruang_sulawesi.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\kuskus_beruang_sulawesi.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_burung_rangkong.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\burung_rangkong.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\layout_activity_splash_screen.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_monyet_hitam_sulawesi.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\monyet_hitam_sulawesi.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-pngs-0:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_tarsius.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\tarsius.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_monyet_gorontalo.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\monyet_gorontalo.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_burung_maleo.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\burung_maleo.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_mondo.png.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\mondo.png"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\layout_item_row_animal.xml.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\layout\\item_row_animal.xml"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_kupu_kupu_glossogobius_matanensis.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\kupu_kupu_glossogobius_matanensis.jpg"
+    },
+    {
+        "merged": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-debug-4:\\drawable_anoa_dataran_rendah.jpg.flat",
+        "source": "D:\\gradle-8.10.1-all\\gradle-8.10.1\\bin\\daemon\\8.7\\id.mondo.myanimals.app-main-6:\\drawable\\anoa_dataran_rendah.jpg"
+    }
+]
